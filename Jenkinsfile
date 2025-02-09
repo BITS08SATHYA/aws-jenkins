@@ -2,9 +2,9 @@ pipeline {
 
     agent any
 
-    environment{
+    // environment{
 
-    }
+    // }
 
     stages{
 
@@ -20,13 +20,6 @@ pipeline {
                 '''
             }
         }
-
-        stage('Build'){
-            agent {
-
-            }
-        }
-
     }
 
 
